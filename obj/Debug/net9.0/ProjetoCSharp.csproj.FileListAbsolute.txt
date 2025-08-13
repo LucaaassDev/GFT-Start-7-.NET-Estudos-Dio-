@@ -12,3 +12,4 @@ C:\Users\Pichau\OneDrive\Área de Trabalho\ProjetoCSharp\ProjetoCSharp\obj\Debug
 C:\Users\Pichau\OneDrive\Área de Trabalho\ProjetoCSharp\ProjetoCSharp\obj\Debug\net9.0\ProjetoCSharp.pdb
 C:\Users\Pichau\OneDrive\Área de Trabalho\ProjetoCSharp\ProjetoCSharp\obj\Debug\net9.0\ProjetoCSharp.genruntimeconfig.cache
 C:\Users\Pichau\OneDrive\Área de Trabalho\ProjetoCSharp\ProjetoCSharp\obj\Debug\net9.0\ref\ProjetoCSharp.dll
+C:\Users\Pichau\OneDrive\Área de Trabalho\ProjetoCSharp\ProjetoCSharp\obj\Debug\net9.0\ProjetoCSharp.sourcelink.json

@@ -119,5 +119,67 @@ namespace AulasDio
             double raiz = Math.Sqrt(x);
             Console.WriteLine($"A raiz quadrada de {x} é: {Math.Round(raiz, 2)}");
         }
+
+
+        // Estruturas de Repetições
+
+        public void estruturaFor()
+        {
+
+            int numero = 10;
+
+            // for (inicialização; condição; incremento)
+            for (int i = 0; i <= 10; i++)
+            {
+                Console.WriteLine($"{numero} X {i} = {numero * i}");
+            }
+        }
+        public void estruturaWhile()
+        {
+            string senha = "";
+            while (senha != "1234")
+            {
+                Console.WriteLine("Digite sua senha: ");
+                string? input = Console.ReadLine();
+                senha = input ?? ""; // Evitar valores nulos
+            }
+            Console.WriteLine("Acesso liberado!");
+
+            int numero = 5;
+            int contador = 1;
+
+            // Interrompendo o Fluxo de execução
+            while (contador <= 10)
+            {
+                Console.WriteLine($"{numero} X {contador} = {numero * contador}");
+                contador++;
+
+                if (contador == 6)
+                {
+                    break;
+                }
+            }
+        }
+        public void estruturaDoWhile()
+        {
+            int opcao;
+
+            do
+            {
+                Console.WriteLine("1 - Olá");
+                Console.WriteLine("2 - Sair");
+                Console.Write("Escolha: ");
+                opcao = Convert.ToInt32(Console.ReadLine());
+             
+
+                if (opcao == 1)
+                {
+                    Console.WriteLine("Olá, usuário");
+                }
+
+            }
+            while (opcao != 2);
+        }
+        
     }
 }

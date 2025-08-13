@@ -48,10 +48,21 @@ content.Decremento(); // Decrementando número
 
 Console.WriteLine(); // Quebra de linha
 
-//Raiz Quadrada
+// Raiz Quadrada
 
 Console.WriteLine("RAIZ QUADRADA");
 content.raizQuadrada(10);
+
+
+Console.WriteLine(); // Quebra de linha
+
+// Estruturas de Repetições
+Console.WriteLine("ESTRUTURAS DE REPETIÇÕES");
+content.estruturaFor();
+content.estruturaWhile();
+content.estruturaDoWhile();
+
+
 
 
 
