@@ -1,5 +1,6 @@
 using System;
 using System.Diagnostics;
+using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 
 namespace AulasDio
@@ -168,9 +169,9 @@ namespace AulasDio
             {
                 Console.WriteLine("1 - Olá");
                 Console.WriteLine("2 - Sair");
-                Console.Write("Escolha: ");
+                Console.Write("Escolha:");
                 opcao = Convert.ToInt32(Console.ReadLine());
-             
+
 
                 if (opcao == 1)
                 {
@@ -180,6 +181,47 @@ namespace AulasDio
             }
             while (opcao != 2);
         }
-        
+
+        // Fazendo um menu interativo
+        public void menuInterativo()
+        {
+            string opcao;
+            bool exibirMenu = true;
+
+            while (exibirMenu)
+            {
+                Console.Clear();
+                Console.WriteLine("1 - Cadastrar Cliente");
+                Console.WriteLine("2 - Buscar Cliente");
+                Console.WriteLine("3 - Apagar Cliente");
+                Console.WriteLine("4 - Encerrar");
+
+                opcao = Console.ReadLine();
+
+                switch (opcao)
+                {
+                    case "1":
+                        Console.WriteLine("Cadastro de Clientes");
+                        break;
+                    case "2":
+                        Console.WriteLine("Buscando Cliente");
+                        break;
+                    case "3":
+                        Console.WriteLine("Apagando Cliente");
+                        break;
+                    case "4":
+                        Console.WriteLine("Encerrando");
+                        exibirMenu = false;
+                        break;
+                    default:
+                        Console.WriteLine("Opção incorreta");
+                        break;
+
+                }
+            }
+
+
+
+        }
     }
 }

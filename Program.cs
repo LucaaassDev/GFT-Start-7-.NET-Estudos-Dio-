@@ -61,6 +61,7 @@ Console.WriteLine("ESTRUTURAS DE REPETIÇÕES");
 content.estruturaFor();
 content.estruturaWhile();
 content.estruturaDoWhile();
+content.menuInterativo();
 
 
 
