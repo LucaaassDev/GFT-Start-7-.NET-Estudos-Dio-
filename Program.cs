@@ -15,7 +15,6 @@ Pessoa p1 = new Pessoa();
 
 
 
-
 // // Exercicio Apresentação
 // Pessoa user1 = new Pessoa();
 // user1.Nome = "Lucas";
