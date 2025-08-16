@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "ProjetoCSharp.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ProjetoCSharp.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjetoCSharp.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ProjetoCSharp.Common/1.0.0": {
+      "type": "project",
+      "path": "../ProjetoCSharp.Common/ProjetoCSharp.Common.csproj",
+      "msbuildProject": "../ProjetoCSharp.Common/ProjetoCSharp.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "ProjetoCSharp.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Pichau\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\ProjetoCSharp\\ProjetoCSharp.Common\\ProjetoCSharp.Common.csproj": {
+              "projectPath": "C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\ProjetoCSharp\\ProjetoCSharp.Common\\ProjetoCSharp.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
